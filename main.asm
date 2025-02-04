@@ -81,7 +81,7 @@ badcommand db 'Bad command entered.', 0x0D, 0x0A, 0
 
 newline db 0x0D, 0x0A, 0
 hey db 'Hello World', 0x0D, 0x0A, 0
-msg_help db 'RyanOS Commands: hi, help, test, reboot, cls, echo, time, sound, script, run, pause, stop, startImage, stopImage, getInput, pushstr, pushint, add, sub, printstr, converttoint, converttostr', 0x0D, 0x0A, 0
+msg_help db 'RyanOS Commands: hi, help, reboot, cls, echo, time, sound, script, run, pause, stop, getinput, push, pushint, add, sub, print, converttoint, converttostr, dup, intptr, setstr, setint, getpasswordmsg, getdndhp, getspellslots, getluckpoints, getpassword', 0x0D, 0x0A, 0
 msg_script db 'Scripting Mode: type "." to stop', 0x0D, 0x0A, 0
 msg_script_end db 'Leaving Scripting Mode!', 0x0D, 0x0A, 0
 script_prompt db ':', 0
