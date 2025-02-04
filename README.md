@@ -8,7 +8,7 @@ Finally do setstr to set the string located second on the stack to the string at
 Now do gui and test it out.
 
 # Scripting Commands
-hi - Prints "Hello World"
+hi - Prints "Hello World" \n
 help - Displays list of commands
 reboot - Reboots the OS
 cls - Clears the screen
