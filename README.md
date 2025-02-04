@@ -5,7 +5,7 @@ by default the password is "password", this is detected via a small state machin
 You can change the password by first going into the shell, then running 'getpassword'. This will push the address of the password string and push it to the stack.\
 Then you can do push 'newpassword' which will push the address of the string you just gave to the stack.\
 Finally do setstr to set the string located second on the stack to the string at the top of the stack.\
-Now do gui and test it out.\
+Now do gui and test it out.
 
 # Scripting Commands
 hi - Prints "Hello World"\
@@ -35,7 +35,7 @@ getpasswordmsg - Pushes the address for the password msg to the stack, its a str
 getdndhp - Pushes the address for the password msg to the stack, its an int\
 getspellslots - Pushes the address for the dnd spell slots to the stack, its an int\
 getluckpoints - Pushes the address for the dnd luck points to the stack, its an int\
-getpassword -Pushes the address for the password to the stack, its a string\
+getpassword -Pushes the address for the password to the stack, its a string
 
 # Address manipulation examples
 To get an idea of how to manipulate addresses heres some examples:
